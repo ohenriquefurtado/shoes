@@ -5,14 +5,10 @@ import { MdShoppingBasket } from 'react-icons/md';
 
 import { Container, Cart } from './styles';
 
-import logo from '../../assets/images/logo.png';
-
 export default function Header() {
   return (
     <Container>
-      <Link to="/">
-        <img src={logo} alt="Rocketshoes" />
-      </Link>
+      <Link to="/" />
 
       <Cart to="/cart">
         <div>
